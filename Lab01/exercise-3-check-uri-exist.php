@@ -12,7 +12,9 @@
     echo "File not exist";
   }
   ?>
-  <a href="https://ctt.hust.edu.vn/">HUST UNIVERSITY</a>
+  <h2 style="text-align:center">URI</h2>
+  <hr />
+  <a href="uris.html">Go to uris.html</a>
 </body>
 
 </html>
