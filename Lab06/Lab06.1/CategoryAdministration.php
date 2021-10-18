@@ -85,7 +85,7 @@ if (!$con) {
         </thead>
         <tbody>
             <?php
-            $sql = "SELECT * FROM category";
+            $sql = "SELECT * FROM categories";
             $result = mysqli_query($con, $sql);
             while ($row = mysqli_fetch_array($result)) {
                 echo "<tr>";
