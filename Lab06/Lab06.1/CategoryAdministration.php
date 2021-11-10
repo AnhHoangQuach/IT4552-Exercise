@@ -65,7 +65,7 @@ if (!$con) {
         $name = $_POST['name'];
         $title = $_POST['title'];
         $description = $_POST['description'];
-        $sql = "INSERT INTO category VALUES ('', '$name', '$title', '$description')";
+        $sql = "INSERT INTO categories VALUES ('', '$name', '$title', '$description')";
         if (mysqli_query($con, $sql)) {
             echo "New record created successfully";
         } else {
