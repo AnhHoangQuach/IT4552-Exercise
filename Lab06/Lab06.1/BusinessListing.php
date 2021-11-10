@@ -29,7 +29,7 @@ while ($row =  mysqli_fetch_array($results)) {
     <hr>
     <table>
         <tr>
-            <td valign="top">
+            <td align="top">
                 <?php
                 print '<table border=1>';
                 print '<th>Click on a category to find business listings:';
@@ -39,7 +39,7 @@ while ($row =  mysqli_fetch_array($results)) {
                 print "</table>";
                 ?>
             </td>
-            <td valign="top">
+            <td align="top">
                 <?php
                 if (isset($_GET['catID'])) {
                     $catID = $_GET['catID'];
